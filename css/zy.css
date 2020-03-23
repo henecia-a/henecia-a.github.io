@@ -1,0 +1,392 @@
+/* 公共样式 */
+.color-e62129 {
+  color: #e62129;
+}
+.color-606060{
+  color: #606060;
+}
+.color-666666{
+  color: #666666;
+}
+.fr{
+  float: right;
+}
+
+.fl{
+  float: left;
+}
+.fs-15{
+  font-size: 1.5em;
+}
+.fs-13{
+  font-size: 1.3em;
+}
+.mb-1rem{
+  margin-bottom: 1rem;
+}
+.m-05{
+  margin: .5rem 0;
+}
+
+/* 首页 begin */
+    .swiper-menuimg {
+      width: 95%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+    }
+  .menuimg .swiper-slide {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+.tabs {
+    margin: .6rem auto .1rem;
+    padding-bottom: .3rem;
+    width: 90%;
+    overflow: hidden;
+  }
+  .tabs.index span {
+    width: 33%;
+  }
+  .tabs span {
+    display: inline-block;
+    float: left;
+    height: .9rem;
+    line-height: .8rem;
+    text-align: center;
+    border: thin solid #9f9583;
+    font-size: 1.2em;
+  }
+
+  .triangle {
+    position: relative;
+    background: #9f9583;
+    color: #fff;
+  }
+
+  .no-border-R {
+    border-right: 0!important;
+  }
+
+  .triangle:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: .25rem solid #9f9583;
+    border-right: .3rem solid transparent;
+    border-bottom: .15rem solid transparent;
+    border-left: .25rem solid transparent;
+    position: absolute;
+    bottom: -.43rem;
+    left: 50%;
+    z-index: 5;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .show {
+    display: block;
+    -webkit-animation: tabs .5s;
+    animation: tabs .5s;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .tabDetail ul {
+    width: 90%;
+    margin: .6rem auto .1rem;
+  }
+
+  .tabDetail ul li {
+    width: 33%;
+    text-align: center;
+    margin: .1rem 0;
+    float: left;
+    line-height: 1.5;
+  }
+
+  li,ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .tabDetail li a {
+    padding: .1rem .2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #595757;
+  }
+
+  .tabDetail ul li:nth-of-type(3n-1) {
+    border-left: .02rem solid #dcdddd;
+    border-right: .02rem solid #dcdddd;
+  }
+  .menuimg dl{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: .6rem auto .1rem;
+  }
+  .menuimg dl .menuName{
+    font-size: 1.3em;
+    margin: .2rem auto .1rem;
+  }
+  .menuimg dl dd {
+    color: #606060;
+    font-size: .8em;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+  }
+  .menuimg dl img{
+    width: 16vw;
+    height: 16vw;
+    line-height: 16vw;
+  }
+
+  .freePrice {
+    margin-top: .6rem;
+    background-color: #ebe9e7;
+    background-size: 100% 100%;
+    padding: .5rem 0;
+  }
+  .types .bt{
+    margin: .6rem;
+  }
+  .types .bt span{
+    color: #e62129;
+  }
+  .freePrice .bt,.types .bt {
+    text-align: center;
+  }
+  .freePrice .bt h3,.types .bt h3 {
+    font-size: .5rem;
+    margin: 0 auto;
+    color: #606060;
+  }
+  .freePrice .bt em,.types .bt em {
+    display: inline-block;
+    border-top: .03rem solid #b3ab9e;
+    width: .6rem;
+  }
+  .freePrice .bt p,.types .bt p {
+    color: #e62129;
+    font-size: .3rem;
+    margin: .8em 0;
+  }
+  .freePrice .form_box input {
+    width: 90%;
+    display: block;
+    margin: .1rem auto;
+    text-align: center;
+    height: .8rem;
+    line-height: .8rem;
+    outline: 0;
+    border: 1px solid #b5b5b6;
+    border-radius: .1rem;
+    padding: 0;
+    font-size: 1.2em;
+  }
+  .freePrice .form_box input[type=button] {
+    background: #e62129;
+    color: #fff;
+    margin: .2rem auto .1rem;
+  }
+  .freePrice .form_box p {
+    text-align: center;
+    margin: 0;
+    padding: .5rem 0;
+    font-size: 1.2em;
+    color: #e62129;
+  }
+  .card-img {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .case{
+    padding: 0 5%;
+  }
+  .case h3{
+    font-size: 1.2em;
+    margin: 0;
+    color: #606060;
+  }
+  .case h4{
+    float: right;
+    font-size: 1em;
+    margin: .3rem 0;
+    color: #aea7a0;
+  }
+  .case h4 span{
+    margin: 0 .1rem;
+    border-right: 1px solid #dcdddd;
+  }
+  #more{
+    font-size: 1.2em;
+    padding: .2rem;
+    border-radius: .3em;
+    background-color: #aea7a0;
+    color: #ffffff;
+    border-color: #aea7a0;
+    margin: 1rem 20%;
+    width: 60%;
+  }
+/* 首页end */
+
+/* 设计师 begin */
+  .designer .tabs span {
+    margin: .4rem 0;
+  }
+
+  .designer .tabs span.triangle:after {
+    border-top: .26rem solid #9f9583;
+  }
+
+  .designer .case dd {
+    margin: .1rem .1rem;
+    width: 58%;
+    float: right;
+    height: .52rem;
+    font-size: 1.2em;
+    overflow: hidden;
+  }
+
+  .designer .case .name {
+    color: #606060;
+    font-size: 1.6em;
+    height: .6rem;
+  }
+
+  .designer .case .type {
+    color: #606060;
+    font-size: 1.4em;
+  }
+
+  .designer .case .speciality {
+    color: #999999;
+    font-size: 1.2em;
+    height: 1rem;
+  }
+  .line:after {
+      content: "";
+      display: inline-block;
+      height: 2px;
+      width: 1em;
+      background: #9f9583;
+      position: absolute;
+      bottom: -.5em;
+      left: 0;
+  }
+  .designer .case .photo {
+    width: 37%;
+    float: left;
+  }
+/* 设计师 end */
+/* 设计师详情 */
+.designerDetail .case #more{
+  margin: .3rem 10%;
+  width: 80%;
+}
+#recommendation{
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  font-size: 1.2em;
+  padding: .2rem;
+  background-color: #aea7a0;
+  color: #ffffff;
+  border-color: #aea7a0;
+}
+.synopsis p{
+  margin: 0;
+}
+.synopsis .line{
+  margin-bottom: .5rem;
+}
+/* 别墅案例 begin */
+  .houseCase .tabs.index span,.designerDetail .tabs.index span {
+    width: 50%;
+  }
+  .houseCase .tabs.index span.triangle:after {
+    border-bottom: .16rem solid transparent;
+  }
+/* 别墅案例 end */
+/* 别墅案例详情页 begin*/
+.houseCaseDetail .title,.product,.content{
+  padding: 0 5%;
+}
+.houseCaseDetail .designer .case #more{
+  margin: .3rem 10%;
+  width: 80%;
+  background-color: #aea79f;
+}
+.houseCaseDetail .title h1{
+  font-size: 1.5em;
+  text-align: center;
+}
+.houseCaseDetail .product p{
+  color: #999999;
+  margin: .2rem 0 0 0;
+}
+.line{
+  position: relative;
+}
+.houseCaseDetail .content .case{
+  padding: 0;
+  margin: .7rem 0;
+}
+/* 别墅案例详情页 end*/
+/* 在装百科 */
+.encyclopedia .case .m-05{
+  margin: .5rem 0;
+}
+.description{
+  font-size: 1.5em;
+  text-align: center;
+  color: #999999;
+}
+.articleOpr{
+  text-align: center;
+  color: #999999;
+}
+.articleOpr{
+  margin: 0 .2rem;
+}
+.encyclopedia .content{
+  margin-top: 1rem;
+  color: #999999;
+}
+.page .prev{
+  width: 43%;
+  float: left;
+  overflow: hidden;
+  margin-left:5%;
+  margin-bottom: .7rem;
+  word-break:keep-all;           /* 不换行 */
+  white-space:nowrap;          /* 不换行 */
+}
+.page .next{
+  width: 45%;
+  float: right;
+  overflow: hidden;
+  margin-right:5%;
+  margin-bottom: .7rem;
+  word-break:keep-all;           /* 不换行 */
+  white-space:nowrap;          /* 不换行 */
+}

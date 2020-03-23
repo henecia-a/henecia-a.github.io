@@ -1,0 +1,15 @@
+.constructionProcessCard{
+    width:100%;
+    padding:0.3rem 0.2rem;
+    border-top:1px solid #cfcfcf;
+}
+.constructionProcessCard img{
+    width:100%;
+}
+.constructionProcessCard h5{
+    font-size:0.5rem;
+}
+.constructionProcessCard h5 a{
+    font-size:0.5rem;
+    color:#606060;
+}

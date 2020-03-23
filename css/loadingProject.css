@@ -1,0 +1,120 @@
+.loadingProjectCard {
+    width: 10rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+}
+
+.loadingProjectCardImg {
+    width: calc(42% - 2px);
+    display: inline-block;
+    padding: 0 0 0 0.3rem;
+    margin: 0.2rem 0;
+    vertical-align: top;
+}
+
+.loadingProjectCardImg img {
+    width: 100%;
+}
+
+.loadingProjectCardText {
+    width: calc(58% - 2px);
+    display: inline-block;
+    padding: 0 0.2rem 0 0.3rem;
+    margin: 0.2rem 0;
+    vertical-align: top;
+}
+
+.loadingProjectCardText h6 {
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+    margin: 0;
+}
+
+.loadingProjectCardText span {
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+}
+
+.loadingProjectCardText p {
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+}
+
+.loadingProjectMore {
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+/* 通用tab类菜单样式 */
+
+.commonMenuList {
+    width: 10rem;
+    padding: 0.5rem 0.3rem;
+}
+
+.commonMenuListTitle {
+    display: flex;
+    display: -webkit-flex;
+    /* Safari */
+    align-content: space-between;
+}
+
+.commonMenuListTitle div {
+    flex-grow: 1;
+    text-align: center;
+    height: 0.8rem;
+    color: #606060;
+    border: 1px solid #D6D6D6;
+    line-height: 0.8rem;
+    font-size: 0.35rem;
+}
+
+.commonMenuListTitleActive {
+    background: #AEA79F;
+    color: #fff !important;
+}
+
+.commonMenuListTitleActive:before {
+    content: '';
+    font-size: 0;
+    line-height: 0;
+    border-width: 0.3rem;
+    border-color: #AEA79F;
+    border-bottom-width: 0;
+    border-style: dashed;
+    border-top-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    position: relative;
+    top: 0.5rem;
+    left: 1rem;
+}
+
+.commonMenuListHref {
+    margin-top: 0.5rem;
+    display:none;
+}
+
+.commonMenuListHref ul {
+    display: inline-block;
+    width: 100%;
+    margin-bottom:0;
+}
+
+.commonMenuListHref ul li {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    border-right: 1px solid #818181;
+    margin: 0.3rem 0;
+}
+
+.commonMenuListHref ul li:last-child {
+    border-right: none !important;
+}
+
+.commonMenuListHref ul a {
+    color: #818181;
+}

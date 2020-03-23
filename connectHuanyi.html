@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>环艺装饰</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <!--引入移动端布局-->
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <!--引入jQuery的cdn-->
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- banner begin -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/swiper.min.js"></script>
+    <!-- banner end -->
+
+    <!-- 滚动菜单 begin -->
+    <script src="js/iscroll.js"></script>
+    <script src="js/navbarscroll.js"></script>
+    <!-- 滚动菜单 end -->
+
+    <!--页面入口js-->
+    <script src="js/index.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <!--顶部logo及菜单栏-->
+        <div class="logoAndSearch">
+            <div class="indexLogo">
+                <a href="">
+                    <img src='img/logo1.png' />
+                </a>
+            </div>
+            <from class="indexForm">
+                <input type="text" placeholder="输入搜索关键字：如装饰" />
+                <button type="submit"></button>
+            </from>
+        </div>
+        <div class="menu">
+            <div style="width: 9.2rem;float: left;">
+                <div class="wrapper" id="retr">
+                    <div class="scroller">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="houseCase.html">别墅案例</a>
+                            </li>
+                            <li>
+                                <a href="workCase.html">工装案例</a>
+                            </li>
+                            <li>
+                                <a href="designer.html">环艺设计师</a>
+                            </li>
+                            <li>
+                                <a href="loadingProject.html">在施项目</a>
+                            </li>
+                            <li>
+                                <a href="constructionMaterial.html">施工材料</a>
+                            </li>
+                            <li>
+                                <a href="qualityManagement.html">品质管理</a>
+                            </li>
+                            <li>
+                                <a href="serviceSystem.html">服务体系</a>
+                            </li>
+                            <li>
+                                <a href="customersVoice.html">客户心声</a>
+                            </li>
+                            <li>
+                                <a href="familySoftWear.html">家庭软装</a>
+                            </li>
+                            <li>
+                                <a href="encyclopedia.html">装修百科</a>
+                            </li>
+                            <li>
+                                <a href="honor.html">环艺荣誉</a>
+                            </li>
+                            <li>
+                                <a href="joinUs.html">加入环艺</a>
+                            </li>
+                            <li>
+                                <a href="connectHuanyi.html">联系环艺</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button id="showSidebarConten" type="button"></button>
+        </div>
+
+    </header>
+    <div id="sidebarContent">
+        <div class="contactUs">
+            <span>联系我们：400-000-023</span>
+            <button id="hideSidebarConten" type="button">X</button>
+        </div>
+        <div class="sidebarContainer">
+            <div class="sidebarTargetCard">
+                <h5>别墅案例</h5>
+                <ul>
+                    <li>
+                        <a href=''>现代简约风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新中式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>欧式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>法式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>美式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>混搭风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新古典风格</a>
+                    </li>
+                    <li>
+                        <a href=''>其他装修风格</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebarTargetCard">
+                <h5>设计师</h5>
+                <ul>
+                    <li>
+                        <a href=''>设计师</a>
+                    </li>
+                    <li>
+                        <a href=''>高级设计师</a>
+                    </li>
+                    <li>
+                        <a href=''>首席设计师</a>
+                    </li>
+                    <li>
+                        <a href=''>资深首席设计师</a>
+                    </li>
+                    <li>
+                        <a href=''>事务所设计师</a>
+                    </li>
+                    <li>
+                        <a href=''>软装设计师</a>
+                    </li>
+                    <li>
+                        <a href=''>工作室设计师</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebarTargetCard">
+                <h5>在施工地</h5>
+                <ul>
+                    <li>
+                        <a href=''>顺义区</a>
+                    </li>
+                    <li>
+                        <a href=''>通州区</a>
+                    </li>
+                    <li>
+                        <a href=''>昌平区</a>
+                    </li>
+                    <li>
+                        <a href=''>朝阳区</a>
+                    </li>
+                    <li>
+                        <a href=''>海淀区</a>
+                    </li>
+                    <li>
+                        <a href=''>混搭风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新古典风格</a>
+                    </li>
+                    <li>
+                        <a href=''>其他装修风格</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebarTargetCard">
+                <h5>别墅案例</h5>
+                <ul>
+                    <li>
+                        <a href=''>现代简约风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新中式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>欧式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>法式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>美式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>混搭风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新古典风格</a>
+                    </li>
+                    <li>
+                        <a href=''>其他装修风格</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebarTargetCard">
+                <h5>别墅案例</h5>
+                <ul>
+                    <li>
+                        <a href=''>现代简约风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新中式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>欧式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>法式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>美式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>混搭风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新古典风格</a>
+                    </li>
+                    <li>
+                        <a href=''>其他装修风格</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebarTargetCard">
+                <h5>别墅案例</h5>
+                <ul>
+                    <li>
+                        <a href=''>现代简约风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新中式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>欧式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>法式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>美式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>混搭风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新古典风格</a>
+                    </li>
+                    <li>
+                        <a href=''>其他装修风格</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebarTargetCard">
+                <h5>别墅案例</h5>
+                <ul>
+                    <li>
+                        <a href=''>现代简约风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新中式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>欧式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>法式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>美式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>混搭风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新古典风格</a>
+                    </li>
+                    <li>
+                        <a href=''>其他装修风格</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebarTargetCard">
+                <h5>别墅案例</h5>
+                <ul>
+                    <li>
+                        <a href=''>现代简约风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新中式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>欧式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>法式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>美式风格</a>
+                    </li>
+                    <li>
+                        <a href=''>混搭风格</a>
+                    </li>
+                    <li>
+                        <a href=''>新古典风格</a>
+                    </li>
+                    <li>
+                        <a href=''>其他装修风格</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="app">
+        <img src="img/connectHuanyi1.jpg" class="imgContent" />
+        <div class="companyAddressCard">
+            <div class="companyAddressCardList">
+                <span class="companyAddressIcon">环艺装饰有限公司工程总部</span>
+                <br/>
+                <span>地址：珠海市高新区唐家湾东岸田馆路39号</span>
+            </div>
+            <div class="companyAddressCardList">
+                <span class="companyAddressIcon">环艺装饰工程有限公司深圳联络处</span>
+                <br/>
+                <span>地址：深圳市光明新区公明办事处红星社区星湖路第六栋201—204</span>
+            </div>
+            <div class="companyAddressCardList">
+                <span class="companyAddressIcon">环艺装饰工程有限公司上海联络处</span>
+                <br/>
+                <span>地址：上海徐汇天钥桥路909号3号楼211室</span>
+            </div>
+            <div class="companyAddressCardList">
+                <span class="companyAddressIcon">环艺装饰工程有限公司中山联络处</span>
+                <br/>
+                <span>地址：中山市豪兴路1号凯茵新城</span>
+            </div>
+            <div class="companyAddressCardList">
+                <span class="companyTelIcon">电话：（0756）2213992</span>
+                <br/>
+                <span class="companyFaxIcon">传真：（0756）2213992-803</span>
+                <br/>
+                <span class="companyMailIcon">邮箱：974413596@qq.com</span>
+                <br/>
+                <span class="companyHotlineIcon">咨询电话：400-000-023</span>
+                <br/>
+            </div>
+        </div>
+        <div class="twoBarCodes">
+            <div class="twoBarCodesContainer">
+                <div>
+                    <img src="img/wechatCode.jpg" />
+                </div>
+                <span>微信公众号二维码</span>
+            </div>
+            <div class="twoBarCodesContainer">
+                <div>
+                    <img src="img/wechatCode.jpg" />
+                </div>
+                <span>微信小程序二维码</span>
+            </div>
+        </div>
+        <script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=Nmxp9MAPukqCKs9ANbWlqxdX98rzlDNY&services=&t=20180427194914"></script>
+        <div class="companyMap" id="companyBaiduMap">
+            <img src="img/companyMap.jpg" />
+        </div>
+        <script>
+            // 百度地图
+            // 百度地图API功能
+            var map = new BMap.Map("companyBaiduMap"); // 创建Map实例
+            map.centerAndZoom(new BMap.Point(113.578073,22.381002), 11); // 初始化地图,设置中心点坐标和地图级别
+            //添加地图类型控件
+            map.addControl(new BMap.MapTypeControl({
+                mapTypes: [
+                    BMAP_NORMAL_MAP,
+                    BMAP_HYBRID_MAP
+                ]
+            }));
+            map.setCurrentCity("珠海"); // 设置地图显示的城市 此项是必须设置的
+            map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+            var point = new BMap.Point(113.578073,22.381002);
+            map.centerAndZoom(point, 15);
+            var marker = new BMap.Marker(point); // 创建标注
+            map.addOverlay(marker); // 将标注添加到地图中
+            marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+            var opts = {
+                width: 200, // 信息窗口宽度
+                height: 100, // 信息窗口高度
+                title: "环艺装饰有限公司工程总部", // 信息窗口标题
+                enableMessage: true, //设置允许信息窗发送短息
+            }
+            var infoWindow = new BMap.InfoWindow("地址：珠海市高新区唐家湾东岸田馆路39号", opts); // 创建信息窗口对象 
+            marker.addEventListener("click", function () {
+                map.openInfoWindow(infoWindow, point); //开启信息窗口
+            });
+        </script>
+    </div>
+    <footer>
+        <div>
+            <a href="tel:400000023">
+                <img src="img/list-7.png" />
+                <span>400-000-023</span>
+            </a>
+        </div>
+        <div>
+            <a href=''>
+                <img src="img/list-8.png" />
+                <span>在线咨询</span>
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

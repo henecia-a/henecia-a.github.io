@@ -1,0 +1,19 @@
+.serviceSystemBanner{
+    width:10rem;
+}
+.serviceSystemBotton{
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+}
+.serviceSystemBotton button{
+    width:4rem;
+    height:1.2rem;
+    margin-top:0.4rem;
+    border:none;
+    background:#aea7a0;
+    border-radius:0.2rem;
+    color:#f0efee;
+    font-size:0.4rem;
+    outline:none;
+}
